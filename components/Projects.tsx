@@ -36,7 +36,15 @@ const projects = [
 ];
 
 
-function ProjectCard({ project, index }: { project: any, index: number }) {
+interface Project {
+    id: string;
+    title: string;
+    category: string;
+    year: string;
+    image: string;
+}
+
+function ProjectCard({ project, index }: { project: Project, index: number }) {
     const ref = useRef<HTMLDivElement>(null);
     const x = useMotionValue(0);
     const y = useMotionValue(0);
@@ -84,7 +92,7 @@ function ProjectCard({ project, index }: { project: any, index: number }) {
 
             <div className="flex justify-between items-start border-t border-white/20 pt-4">
                 <div>
-                    <span className="block text-xs font-mono text-gray-500 mb-1">{project.id} // {project.category}</span>
+                    <span className="block text-xs font-mono text-gray-500 mb-1">{project.id} {'//'} {project.category}</span>
                     <h3 className="text-2xl md:text-4xl font-bold uppercase text-white group-hover:text-gray-300 transition-colors">
                         {project.title}
                     </h3>

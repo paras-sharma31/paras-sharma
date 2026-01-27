@@ -116,6 +116,7 @@ export default function KeyServices() {
 
                     return (
                         <Wrapper
+                            // eslint-disable-next-line @typescript-eslint/no-explicit-any
                             {...wrapperProps as any}
                             key={service.id}
                         >
