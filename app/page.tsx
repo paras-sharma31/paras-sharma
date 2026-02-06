@@ -12,7 +12,6 @@ export default function Home() {
       <Projects />
       <VideoSection />
       <KeyServices />
-      {/* <WebPreviews /> */}
     </main>
   );
 }
