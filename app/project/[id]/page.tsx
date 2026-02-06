@@ -99,7 +99,7 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
                                         The<br />Solution
                                     </h2>
                                     <p className="text-lg font-light text-gray-300 leading-relaxed mb-12">
-                                        We approached the solution with a "less is more" philosophy. By leveraging WebGL and modern CSS techniques, we created an interface that feels fluid and responsive. The result is an experience that honors the user's time and attention.
+                                        We approached the solution with a &quot;less is more&quot; philosophy. By leveraging WebGL and modern CSS techniques, we created an interface that feels fluid and responsive. The result is an experience that honors the user&apos;s time and attention.
                                     </p>
                                 </div>
                                 <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg bg-white/5">
@@ -166,7 +166,7 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
                     <div className="max-w-4xl mx-auto text-center mb-32 md:mb-48">
                         <div className="w-px h-24 bg-gradient-to-b from-transparent to-white mx-auto mb-8"></div>
                         <h2 className="text-2xl md:text-4xl font-light leading-snug text-white/80">
-                            "This project represents a milestone in balancing aesthetic precision with technical performance. It pushes the boundaries of what is expected from a standard web experience."
+                            &quot;This project represents a milestone in balancing aesthetic precision with technical performance. It pushes the boundaries of what is expected from a standard web experience.&quot;
                         </h2>
                     </div>
 
